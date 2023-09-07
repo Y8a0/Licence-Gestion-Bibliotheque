@@ -46,7 +46,7 @@
         <div class="form form-book">
             <div class="form-container edit-form-container edit-book-container">
                 <div class="form-btn">
-                    <span onclick="login()" style="width: 100%;">Edit Book Info</span>
+                    <span onclick="login()" style="width: 100%;">Editer l'info du livre</span>
                     <hr id="indicator" class="add-author">
                 </div>
                 <form action="" id="loginform" method="post" enctype="multipart/form-data">
@@ -54,7 +54,7 @@
                         <?php echo "<img width='50px' height='50px' src='images/".$pic."'>"?>
                     </div>
                     <div class="label">
-                        <label for="studentid">Book ID : </label>
+                        <label for="studentid">livre ID : </label>
                         <b style="font-size: 15px;">
                         <?php
 			                echo $bookid;
@@ -62,11 +62,11 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="bookname">Book Name : </label>
+                        <label for="bookname">Nom du livre : </label>
                     </div>
                     <input type="text"  name="bookname" value="<?php echo $bookname; ?>">
                     <div class="label">
-                        <label for="authorname">Author Name : </label>
+                        <label for="authorname">Nom d'auteur : </label>
                     </div>
                     <select class="form-control" name="authorname" >
                         <option value="<?php echo $authorid;?>"><?php echo $authorname;?></option>
@@ -86,7 +86,7 @@
                         ?>        
                     </select>
                     <div class="label">
-                        <label for="authorname">Category Name : </label>
+                        <label for="authorname">Nom du categorie : </label>
                     </div>
                     <select class="form-control" name="categoryname">
                         <option value="<?php echo $categoryid;?>"><?php echo $categoryname;?></option>
@@ -114,7 +114,7 @@
                     </div>
                     <input type="text"  name="price" value="<?php echo $price; ?>">
                     <div class="label">
-                        <label for="quantity">Quantity : </label>
+                        <label for="quantity">Quantité : </label>
                     </div>
                     <input type="text"  name="quantity" value="<?php echo $quantity; ?>">
                     <div class="label">
@@ -125,7 +125,7 @@
                         <label for="pic">Update Picture :</label>
                     </div>
                     <input type="file"  name="file" class="file">
-                    <button type="submit" class="btn" name="submit">Update</button>
+                    <button type="submit" class="btn" name="submit">Valider</button>
                 </form>
             </div>
         </div>

@@ -22,12 +22,12 @@
         <div class="form">
             <div class="form-container">
                 <div class="form-btn form-password">
-                    <span onclick="login()" style="width: 100%;">Add Author</span>
+                    <span onclick="login()" style="width: 100%;">Ajout d'auteur</span>
                     <hr id="indicator" class="indi-password add-author">
                 </div>
                 <form action="" id="loginform" method="post">
                     <input type="text" placeholder="Author Name" name="authorname" required>
-                    <button type="submit" class="btn" name="add">Add</button>
+                    <button type="submit" class="btn" name="add">Ajouter</button>
                 </form>
             </div>
         </div>

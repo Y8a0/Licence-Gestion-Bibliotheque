@@ -94,12 +94,12 @@
     <div class="footer">
         <div class="footer-row">
             <div class="footer-left">
-                <h1>Available</h1>
-                <p><i class="far fa-clock" style="color: rgb(128, 6, 0);"></i>Monday to Friday - 8h:30mn à 20h</p>
-                <p><i class="far fa-clock" style="color: rgb(128, 6, 0);"></i>Saturday - 8h:30mn to 13h</p>
+                <h1>Disponible</h1>
+                <p><i class="far fa-clock" style="color: rgb(128, 6, 0);"></i>Lundi à vendredi - 8h:30mn à 20h</p>
+                <p><i class="far fa-clock" style="color: rgb(128, 6, 0);"></i>Samedi - 8h:30mn to 13h</p>
             </div>
             <div class="footer-right">
-                <h1>Get In Touch</h1>
+                <h1>Contacter nous</h1>
                 <p>EPI-Niger online library <a href="https://www.google.com/maps/place/EPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger/@13.5318916,2.1024797,17z/data=!4m14!1m7!3m6!1s0x11d0754a14323b47:0x67409acc1f19285b!2sEPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013!3m5!1s0x11d0754a14323b47:0x67409acc1f19285b!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013?entry=ttu"><i class="fas fa-map-marker-alt" style="color: rgb(128, 6, 0);"></i></a></p>
                 <p>info@epiniger.edu.ne<i class="fas fa-paper-plane" style="color: rgb(128, 6, 0);"></i></p>
                 <p>(+227) 98.60.60.78 92.41.08.08<i class="fas fa-phone-alt" style="color: rgb(128, 6, 0);"></i></p>

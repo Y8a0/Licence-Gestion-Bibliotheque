@@ -26,7 +26,7 @@
     </div>
     <div class="request-table">
         <div class="request-container book-container"  style="max-width: 1600px;">
-            <h2 class="request-title student-info-title">List of Expired books</h2>
+            <h2 class="request-title student-info-title">Liste des livres expiré</h2>
             <?php
         $e=0;
 		if(isset($_POST['submit']))

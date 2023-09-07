@@ -86,7 +86,7 @@
                     </b><br>
                     </div> 
                     <div class="label">
-                        <label for="studentid">Book Name : </label>
+                        <label for="studentid">Nom du livre : </label>
                         <b style="font-size: 13px;">
                         <?php
 			                echo $bookname;
@@ -94,7 +94,7 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="studentid">Author Name : </label>
+                        <label for="studentid">Nom d'auteur : </label>
                         <b style="font-size: 13px;">
                         <?php
 			                echo $authorname;
@@ -102,7 +102,7 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="studentid">Category Name : </label>
+                        <label for="studentid">Nom du categorie : </label>
                         <b style="font-size: 13px;">
                         <?php
 			                echo $categoryname;
@@ -126,12 +126,12 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="studentid">Fine : </label>
+                        <label for="studentid">Bien : </label>
                     </b><br>
                     <input type="text"  name="fine" value="<?php echo $fine; ?>">
                     </div>
                     <div class="label">
-                        <label for="studentid">Issue Date : </label>
+                        <label for="studentid">Date d'émission : </label>
                         <b style="font-size: 13px;">
                         <?php
 			                echo $issuedate;
@@ -139,15 +139,15 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="status">Return Date : </label>
+                        <label for="status">Date de retour : </label>
                     </div>
                     <input type="date"  name="returndate" value="<?php echo $returndate; ?>">
                     <div class="label">
-                        <label for="status">Return Date with time: </label>
+                        <label for="status">Date de retour avec heure: </label>
                     </div>
                     <?php $dbInsertDate = date('Y-m-d\TH:i:s', strtotime($tm)); ?>
                     <input type="datetime-local"  name="returndatetime" value="<?php echo $dbInsertDate; ?>">
-                    <button type="submit" class="btn" name="submit" style="margin-top: 20px;">Update</button> 
+                    <button type="submit" class="btn" name="submit" style="margin-top: 20px;">Valider</button> 
                 </form>
             </div>
         </div>

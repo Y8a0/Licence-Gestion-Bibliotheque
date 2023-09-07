@@ -112,12 +112,12 @@
                 </div>
                 <nav>
                     <ul id="menuitems">
-                        <li><a href="index.php"><i class="fas fa-home"></i>  Home</a></li>
-                        <li><a href="index_books.php"><i class="fas fa-book"></i> Books</a></li>
+                        <li><a href="index.php"><i class="fas fa-home"></i>  Acceuil</a></li>
+                        <li><a href="index_books.php"><i class="fas fa-book"></i> Livre</a></li>
                         <!-- <li><a href="">About Us</a></li>
                         <li><a href="">Contact</a></li> -->
                         <li><a href="admin.php"><i class="fas fa-user-shield"></i> Admin</a></li>
-                        <li><a href="student.php"><i class="fas fa-users"></i> Student</a></li>
+                        <li><a href="student.php"><i class="fas fa-users"></i> Etudiant</a></li>
                     </ul>
                 </nav>
                <!-- <a href="cart.html"><img src="images/cart.png" alt="Cart" width="50px" height="50px" style="margin-left: 10px;" class="cart-icon"></a> 

@@ -57,7 +57,7 @@
                                 }
                                 
                                 // echo"<small style='font-size:10px; padding-left:10px;padding-top:0;'>";echo $res1['message'];echo"</small>";?>
-                                <a href="?req=<?php echo $res1['username'];?>"><button type='submit' name='show' style="margin-left:10px;">Show</button></a>
+                                <a href="?req=<?php echo $res1['username'];?>"><button type='submit' name='show' style="margin-left:10px;">Monter</button></a>
                             </div>
                         </div>
                         </td><?php
@@ -150,7 +150,7 @@
                     <form action="" method="post">
                         <!-- <input type="text" name="msg" class="msg-control" required placeholder="Write Message Here...."> -->
                         <textarea name="msg" id="" required placeholder="Write Message Here...."></textarea>
-                        <button class="sendbtn" type="submit" name="submit"><i class="fas fa-paper-plane" ></i>&nbsp;Send</button>
+                        <button class="sendbtn" type="submit" name="submit"><i class="fas fa-paper-plane" ></i>&nbsp;Envoyer</button>
                     </form>
                     
                 </div>
@@ -232,7 +232,7 @@
                     <form action="" method="post">
                         <!-- <input type="text" name="msg" class="msg-control" required placeholder="Write Message Here...."> -->
                         <textarea name="msg" id="" required placeholder="Write Message Here...."></textarea>
-                        <button class="sendbtn" type="submit" name="submit"><i class="fas fa-paper-plane" ></i>&nbsp;Send</button>
+                        <button class="sendbtn" type="submit" name="submit"><i class="fas fa-paper-plane" ></i>&nbsp;Envoyer</button>
                     </form>
                     
                 </div>

@@ -65,7 +65,7 @@
                         <label for="PhoneNumber">Phone Number : </label>
                     </div>
                     <input type="text" name="PhoneNumber" value="<?php echo $PhoneNumber; ?>">
-                    <button type="submit" class="btn" name="change">Update</button>
+                    <button type="submit" class="btn" name="change">Valider</button>
                 </form>
             </div>
         </div>

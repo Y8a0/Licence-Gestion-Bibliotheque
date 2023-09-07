@@ -32,7 +32,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="student_info.php">
                         <h3><?= $total_students; ?></h3>
-                        Total Students
+                        Total des Etudents
                     </a>
                 </div>
                 <?php
@@ -43,7 +43,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="manage_books.php">
                         <h3><?= $total_books; ?></h3>
-                        Books Listed
+                        Liste des livres
                     </a>
                 </div>
                 <?php
@@ -54,7 +54,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="manage_authors.php">
                         <h3><?= $total_authors; ?></h3>
-                        Authors Listed
+                        Liste des auteurs
                     </a>
                 </div>
                 <?php
@@ -65,7 +65,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="manage_categories.php">
                         <h3><?= $total_categories; ?></h3>
-                        Categories Listed
+                        Liste des categories
                     </a>
                 </div>
                 <?php
@@ -75,7 +75,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="request_info.php">
                         <h3><?= $total_requests; ?></h3>
-                        Total Books requests
+                        Total livres demendé
                     </a>
                 </div>
                 <?php
@@ -87,7 +87,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="manage_issued_books.php">
                         <h3><?= $total_issue; ?></h3>
-                        Total Books issued
+                        Total des livres publiés
                     </a>
                 </div>
                 <?php
@@ -98,7 +98,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="returned.php">
                         <h3><?= $total_returned; ?></h3>
-                        Returned Lists
+                        Listes renvoyées
                     </a>
                 </div>
                 <?php
@@ -109,7 +109,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="expired.php">
                         <h3><?= $total_expired; ?></h3>
-                        Expired Lists
+                        Listes expirées
                     </a>
                 </div>
                 <?php
@@ -119,7 +119,7 @@ include "admin_navbar.php";
                 <div class="dashboard-col-4">
                     <a href="trending_books.php">
                         <h3><?= $total_trending; ?></h3>
-                        Total Trending Books
+                        Livres tendances totales
                     </a>
                 </div>
             </div>

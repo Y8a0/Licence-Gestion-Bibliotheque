@@ -33,12 +33,12 @@
         <div class="form">
             <div class="form-container">
                 <div class="form-btn">
-                    <span onclick="login()" style="width: 100%;">Edit Author Info</span>
+                    <span onclick="login()" style="width: 100%;">Editer l'info d'auteur</span>
                     <hr id="indicator" class="add-author">
                 </div>
                 <form action="" id="loginform" method="post" enctype="multipart/form-data">
                     <div class="label">
-                        <label for="studentid">Author ID : </label>
+                        <label for="studentid">Auteur ID : </label>
                         <b style="font-size: 15px;">
                         <?php
 			                echo $authorid;
@@ -46,10 +46,10 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="authorname">Author Name : </label>
+                        <label for="authorname">Nom d'auteur : </label>
                     </div>
                     <input type="text"  name="authorname" value="<?php echo $authorname; ?>">
-                    <button type="submit" class="btn" name="submit">Update</button>
+                    <button type="submit" class="btn" name="submit">Valider</button>
                 </form>
             </div>
         </div>

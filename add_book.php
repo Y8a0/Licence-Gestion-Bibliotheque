@@ -24,32 +24,32 @@
         <div class="form">
             <div class="form-container edit-form-container add-book-form">
                 <div class="form-btn">
-                    <span onclick="login()" style="width: 100%;">Add Book</span>
+                    <span onclick="login()" style="width: 100%;">Ajout livre</span>
                     <hr id="indicator" class="add-author">
                 </div>
                 <form action="" id="loginform" method="post" enctype='multipart/form-data'>
                     <input type="text" placeholder="Book Name" name="bookname" required>
                     <select class="form-control" name="author" required="">
-                        <option value="">Select Author</option>
+                        <option value="">Auteur</option>
                         <?php while($row1=mysqli_fetch_array($res1)):;?>
                             <option value="<?php echo $row1[0];?>"><?php echo $row1[1];?></option>
                         <?php endwhile;?>
                     </select><br>
                     <select class="form-control" name="category" required="">
-                        <option value="">Select Category</option>
+                        <option value="">Categorie</option>
                         <?php while($row=mysqli_fetch_array($res)):;?>
                             <option value="<?php echo $row[0];?>"><?php echo $row[1];?></option>
                         <?php endwhile;?>
                     </select><br>
                     <input type="text" placeholder="ISBN" name="ISBN" required>
-                    <input type="text" placeholder="Price" name="price" required>
-                    <input type="text" placeholder="Quantity" name="quantity" required>
-                    <input type="text" placeholder="Status" name="status" required><br>
+                    <input type="text" placeholder="Pri" name="price" required>
+                    <input type="text" placeholder="Quantite" name="quantity" required>
+                    <input type="text" placeholder="Statu" name="status" required><br>
                     <div class="label">
-                        <label for="pic">Upload picture of the book : </label>
+                        <label for="pic">Telecharger une image du livre : </label>
                     </div>
                     <input type="file" name="file" class="file" required>
-                    <button type="submit" class="btn" name="submit">Add</button>
+                    <button type="submit" class="btn" name="submit">Ajouter</button>
                 </form>
             </div>
         </div>

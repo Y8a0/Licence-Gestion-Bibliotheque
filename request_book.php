@@ -20,7 +20,7 @@
 <body>
     <div class="request-table">
         <div class="request-container">
-            <h2 class="request-title">List of Requested Books</h2>
+            <h2 class="request-title">Liste des livres demendé</h2>
             <?php
 	    if(isset($_SESSION['login_student_username']))
 		{

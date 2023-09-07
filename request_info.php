@@ -26,7 +26,7 @@
     </div>
     <div class="request-table">
         <div class="request-container book-container">
-            <h2 class="request-title student-info-title">Request Information</h2>
+            <h2 class="request-title student-info-title">Info sur les demende</h2>
             <?php
 
 		if(isset($_POST['submit']))

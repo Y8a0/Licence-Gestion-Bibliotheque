@@ -36,39 +36,39 @@
                 
                     <ul id="menuitems">
                         <li><a href="admin_dashboard.php">Dashboard</a></li>
-                        <li><a href="student_info.php">Student Info</a></li>
+                        <li><a href="student_info.php">Info étudiant</a></li>
                         <li class="dropdown">
-                            <button onclick="myFunction2()" class="dropbtn admindrop">Authors <i class="fas fa-caret-down"></i></button>
+                            <button onclick="myFunction2()" class="dropbtn admindrop">Auteurrs <i class="fas fa-caret-down"></i></button>
                             <ul class="dropdown-content" id="myDropdown2">
-                                <li><a href="add_author.php">Add Author</a></li>
-                                <li><a href="manage_authors.php">Manage Authors</a></li>
+                                <li><a href="add_author.php">Ajout d'auteur</a></li>
+                                <li><a href="manage_authors.php">Gérer les auteurs</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <button onclick="myFunction3()" class="dropbtn admindrop">Categories <i class="fas fa-caret-down"></i></button>
                             <ul class="dropdown-content" id="myDropdown3">
-                                <li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="manage_categories.php">Manage Categories</a></li>
+                                <li><a href="add_category.php">Ajout Categorie</a></li>
+                                <li><a href="manage_categories.php">Gérer les Categories</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <button onclick="myFunction4()" class="dropbtn admindrop">Books <i class="fas fa-caret-down"></i></button>
+                            <button onclick="myFunction4()" class="dropbtn admindrop">Livre <i class="fas fa-caret-down"></i></button>
                             <ul class="dropdown-content" id="myDropdown4">
-                                <li><a href="add_book.php">Add Book</a></li>
-                                <li><a href="manage_books.php">Manage Books</a></li>
-                                <li><a href="trending_books.php">Trending Books</a></li>
-                                <li><a href="request_info.php">Request Info</a></li>
+                                <li><a href="add_book.php">Ajout livre</a></li>
+                                <li><a href="manage_books.php">Gérer les livres</a></li>
+                                <li><a href="trending_books.php">Tendence livre</a></li>
+                                <li><a href="request_info.php">Info sur les demendes</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <button onclick="myFunction5()" class="dropbtn admindrop">Issue Info <i class="fas fa-caret-down"></i></button>
                             <ul class="dropdown-content issuedrop" id="myDropdown5">
-                                <li><a href="manage_issued_books.php">Manage Issued Books</a></li>
-                                <li><a href="returned.php">Returned Lists</a></li>
-                                <li><a href="expired.php">Expired Lists</a></li>
+                                <li><a href="manage_issued_books.php">Gérer les livres publiés</a></li>
+                                <li><a href="returned.php">Listes renvoyées</a></li>
+                                <li><a href="expired.php">Listes expirées</a></li>
                             </ul>
                         </li>
-                        <li><a href="feedback_info.php">Feedback List</a></li>
+                        <li><a href="feedback_info.php">Liste de commentaires</a></li>
                         <li><a href="admin_message.php" id="envelope"><i class="fas fa-envelope"></i>
                         <?php
                         if($c['total']>0 && $c['total']<=9){
@@ -94,7 +94,7 @@
                             <ul class="dropdown-content" id="myDropdown">
                                 <li><a href="admin_update_password.php">Change Password</a></li>
                                 <!-- <li><a href="">Change Picture</a></li> -->
-                                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> &nbsp; Logout</a></li>
+                                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> &nbsp; Deconnecter</a></li>
                             </ul>
                         </li>
                         
@@ -122,12 +122,12 @@
                 </div>
                 <nav>
                     <ul id="menuitems">
-                        <li><a href="index.php"><i class="fas fa-home"></i>  Home</a></li>
-                        <li><a href="index_books.php"><i class="fas fa-book"></i> Books</a></li>
+                        <li><a href="index.php"><i class="fas fa-home"></i>  Acceuil</a></li>
+                        <li><a href="index_books.php"><i class="fas fa-book"></i> Livre</a></li>
                         <!-- <li><a href="">About Us</a></li>
                         <li><a href="">Contact</a></li> -->
                         <li><a href="admin.php"><i class="fas fa-user-shield"></i> Admin</a></li>
-                        <li><a href="student.php"><i class="fas fa-users"></i> Student</a></li>
+                        <li><a href="student.php"><i class="fas fa-users"></i> Etudiant</a></li>
                     </ul>
                 </nav>
                <!-- <a href="cart.html"><img src="images/cart.png" alt="Cart" width="50px" height="50px" style="margin-left: 10px;" class="cart-icon"></a> 

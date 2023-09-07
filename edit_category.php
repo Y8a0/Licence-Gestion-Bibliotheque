@@ -33,12 +33,12 @@
         <div class="form">
             <div class="form-container">
                 <div class="form-btn">
-                    <span onclick="login()" style="width: 100%;">Edit Category Info</span>
+                    <span onclick="login()" style="width: 100%;">Editer l'info d'auteur</span>
                     <hr id="indicator" class="add-author">
                 </div>
                 <form action="" id="loginform" method="post" enctype="multipart/form-data">
                     <div class="label">
-                        <label for="studentid">Category ID : </label>
+                        <label for="studentid">Categori ID : </label>
                         <b style="font-size: 15px;">
                         <?php
 			                echo $categoryid;
@@ -46,10 +46,10 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="categoryname">Category Name : </label>
+                        <label for="categoryname">Nom du categorie : </label>
                     </div>
                     <input type="text"  name="categoryname" value="<?php echo $categoryname; ?>">
-                    <button type="submit" class="btn" name="submit">Update</button>
+                    <button type="submit" class="btn" name="submit">Valider</button>
                 </form>
             </div>
         </div>
