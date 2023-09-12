@@ -87,7 +87,7 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo " "; echo "</td>";
                     echo "</tr>";
                 }
                 echo "</table>";
@@ -150,7 +150,7 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo ""; echo "</td>";
                     echo "</tr>";
             }
             echo "</table>";

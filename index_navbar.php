@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Library Management System</title>
+    <title>EPI-Niger online library</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title admin-title">
-                <a href="index.php"><h3>EPI Online Library</h3></a>
+                <a href="index.php"><h3><!-- EPI-Niger online library --></h3></a>
                 </div>
                 <div class="student-navbar">
                 
@@ -69,7 +69,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title admin-title">
-                <a href="index.php"><h3>EPI Online Library</h3></a>
+                <a href="index.php"><h3><!-- EPI Online Library --></h3></a>
                 </div>
                 <div class="student-navbar">
                 
@@ -108,7 +108,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title">
-                <a href="index.php"><h3 style="">EPI Online Library</h3></a>
+                <a href="index.php"><h3><!-- EPI Online Library --></h3></a>
                 </div>
                 <nav>
                     <ul id="menuitems">

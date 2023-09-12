@@ -74,10 +74,6 @@
                                     <?php
                                         echo $row['bookname'];
                                     ?></h4>
-                                    <p style="font-size: 18px">Price: 
-                                    <?php
-                                        echo $row['price'];
-                                    ?> Tk.</p>
                                 
                                 <div class="overlay"></div>
                                 <div class="sub-card">
@@ -100,11 +96,7 @@
                                 <p><b>Quantity: &nbsp;</b> 
                                 <?php
                                     echo $row['quantity'];
-                                ?></p>
-                                <p><b>Price:</b> 
-                                <?php
-                                    echo $row['price'];
-                                ?> Tk.</p> 
+                                ?></p> 
                                 <p><b>Status: &nbsp;</b>
                                 <span>
                                 <?php
@@ -145,11 +137,6 @@
                                 <?php
                                     echo $row['bookname'];
                                 ?></h4>
-                                <p style="font-size: 18px">Price: 
-                                <?php
-                                    echo $row['price'];
-                                ?> Tk.</p>
-                            
                             <div class="overlay"></div>
                             <div class="sub-card">
                             <p><b>Book Name: &nbsp;</b> 
@@ -171,11 +158,7 @@
                             <p><b>Quantity: &nbsp;</b> 
                             <?php
                                 echo $row['quantity'];
-                            ?></p>
-                            <p><b>Price:</b> 
-                            <?php
-                                echo $row['price'];
-                            ?> Tk.</p> 
+                            ?></p> 
                             <p><b>Status: &nbsp;</b>
                             <span>
                             <?php
@@ -210,11 +193,6 @@
                                 <?php
                                     echo $row['bookname'];
                                 ?></h4>
-                                <p style="font-size: 18px">Price: 
-                                <?php
-                                    echo $row['price'];
-                                ?> Tk.</p>
-                            
                             <div class="overlay"></div>
                             <div class="sub-card">
                             <p><b>Book Name: &nbsp;</b> 
@@ -236,11 +214,7 @@
                             <p><b>Quantity: &nbsp;</b> 
                             <?php
                                 echo $row['quantity'];
-                            ?></p>
-                            <p><b>Price:</b> 
-                            <?php
-                                echo $row['price'];
-                            ?> Tk.</p> 
+                            ?></p> 
                             <p><b>Status: &nbsp;</b>
                             <span>
                             <?php

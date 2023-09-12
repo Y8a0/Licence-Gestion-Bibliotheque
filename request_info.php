@@ -34,7 +34,7 @@
 			$q=mysqli_query($db,"SELECT student.studentid,FullName,studentpic,books.bookid,bookname,ISBN,price,bookpic,authors.authorname,category.categoryname FROM student inner join issueinfo on student.studentid=issueinfo.studentid inner join books on issueinfo.bookid=books.bookid join authors on authors.authorid=books.authorid join category on category.categoryid=books.categoryid where issueinfo.approve='' AND issueinfo.studentid='$_POST[search]';");
 			if(mysqli_num_rows($q)==0)
 			{
-				echo "Sorry! There's no book request by this student ID";
+				echo "Il n'y a aucune demande en attente.";
 
 			}
 			else
@@ -47,7 +47,6 @@
                 echo "<th>"; echo "Author Name"; echo "</th>";
                 echo "<th>"; echo "Category Name"; echo "</th>";
                 echo "<th>"; echo "ISBN"; echo "</th>";
-                echo "<th>"; echo "Price"; echo "</th>";
                 echo "<th style='padding-left: 40px;'>"; echo "Action"; echo "</th>";
                 echo "</tr>";
 
@@ -77,7 +76,6 @@
                     echo "<td>"; echo $row['authorname']; echo "</td>";
                     echo "<td>"; echo $row['categoryname']; echo "</td>";
                     echo "<td>"; echo $row['ISBN']; echo "</td>";
-                    echo "<td>"; echo $row['price']; echo " Tk."; echo "</td>";
                     echo "<td>";?><a href="issue_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold;" type="submit" name="submit1" class="btn btn-default actionbtn">Issue
 			        </button>
                     </a>
@@ -105,7 +103,6 @@
             echo "<th>"; echo "Author Name"; echo "</th>";
             echo "<th>"; echo "Category Name"; echo "</th>";
             echo "<th>"; echo "ISBN"; echo "</th>";
-            echo "<th>"; echo "Price"; echo "</th>";
             echo "<th style='padding-left: 40px;'>"; echo "Action"; echo "</th>";
             echo "</tr>";
 
@@ -135,7 +132,6 @@
                     echo "<td>"; echo $row['authorname']; echo "</td>";
                     echo "<td>"; echo $row['categoryname']; echo "</td>";
                     echo "<td>"; echo $row['ISBN']; echo "</td>";
-                    echo "<td>"; echo $row['price']; echo " Tk."; echo "</td>";
                     echo "<td>";?><a href="issue_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold;" type="submit" name="submit1" class="btn btn-default actionbtn">Issue
 			        </button>
                     </a>

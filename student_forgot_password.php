@@ -24,7 +24,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title">
-                <a href="index.php"><h3>EPI Online Library</h3></a>
+                <a href="index.php"><h3><!-- EPI-Niger online library --></h3></a>
                 </div>
                 <nav>
                     <ul id="menuitems">

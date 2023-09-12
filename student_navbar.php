@@ -35,7 +35,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title student-title">
-                <a href="index.php"><h3 style="font-size: 15px;">EPI Online Library</h3></a>
+                <a href="index.php"><h3 style="font-size: 15px;"><!-- EPI-Niger online library --></h3></a>
                 </div>
                 <div class="student-navbar">
                 
@@ -134,7 +134,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title">
-                <a href="index.php"><h3>EPI Online Library</h3></a>
+                <a href="index.php"><h3><!-- EPI Online Library --></h3></a>
                 </div>
                 <nav>
                     <ul id="menuitems">

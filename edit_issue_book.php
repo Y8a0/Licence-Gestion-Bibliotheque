@@ -118,14 +118,6 @@
                     </b><br>
                     </div>
                     <div class="label">
-                        <label for="studentid">Price : </label>
-                        <b style="font-size: 13px;">
-                        <?php
-			                echo $price;
-			            ?>
-                    </b><br>
-                    </div>
-                    <div class="label">
                         <label for="studentid">Bien : </label>
                     </b><br>
                     <input type="text"  name="fine" value="<?php echo $fine; ?>">

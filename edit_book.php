@@ -110,10 +110,6 @@
                     </div>
                     <input type="text"  name="ISBN" value="<?php echo $ISBN; ?>">
                     <div class="label">
-                        <label for="price">Price : </label>
-                    </div>
-                    <input type="text"  name="price" value="<?php echo $price; ?>">
-                    <div class="label">
                         <label for="quantity">Quantité : </label>
                     </div>
                     <input type="text"  name="quantity" value="<?php echo $quantity; ?>">

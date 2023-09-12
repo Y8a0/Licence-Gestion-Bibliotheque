@@ -46,7 +46,6 @@
                 echo "<th>"; echo "Author Name"; echo "</th>";
                 echo "<th>"; echo "Category Name"; echo "</th>";
                 echo "<th>"; echo "ISBN"; echo "</th>";
-                echo "<th>"; echo "Price"; echo "</th>";
                 echo "<th>"; echo "Quantity"; echo "</th>";
                 echo "<th>"; echo "Status"; echo "</th>";
                 echo "<th>"; echo "Action"; echo "</th>";
@@ -70,7 +69,6 @@
                     echo "<td>"; echo $row['authorname']; echo "</td>";
                     echo "<td>"; echo $row['categoryname']; echo "</td>";
                     echo "<td>"; echo $row['ISBN']; echo "</td>";
-                    echo "<td>"; echo $row['price']; echo "</td>";
                     echo "<td>"; echo $row['quantity']; echo "</td>";
                     echo "<td>"; echo $row['status']; echo "</td>";
                     echo "<td>";?><a href="edit_book.php?ed=<?php echo $row['bookid'];?>"><button style="font-weight:bold;" type="submit" name="submit1" class="btn btn-default actionbtn"><i class="fas fa-edit"></i> Edit
@@ -97,7 +95,6 @@
             echo "<th>"; echo "Author Name"; echo "</th>";
             echo "<th>"; echo "Category Name"; echo "</th>";
             echo "<th>"; echo "ISBN"; echo "</th>";
-            echo "<th>"; echo "Price"; echo "</th>";
             echo "<th>"; echo "Quantity"; echo "</th>";
             echo "<th>"; echo "Status"; echo "</th>";
             echo "<th>"; echo "Action"; echo "</th>";
@@ -121,7 +118,6 @@
                     echo "<td>"; echo $row['authorname']; echo "</td>";
                     echo "<td>"; echo $row['categoryname']; echo "</td>";
                     echo "<td>"; echo $row['ISBN']; echo "</td>";
-                    echo "<td>"; echo $row['price']; echo "</td>";
                     echo "<td>"; echo $row['quantity']; echo "</td>";
                     echo "<td>"; echo $row['status']; echo "</td>";
                     echo "<td>";?><a href="edit_book.php?ed=<?php echo $row['bookid'];?>"><button style="font-weight:bold;" type="submit" name="submit1" class="btn btn-default actionbtn"><i class="fas fa-edit"></i> Edit
@@ -140,28 +136,28 @@
         ?> 
         </div>
     </div>
-    <!-- <div class="footer">
+    <div class="footer">
         <div class="footer-row">
             <div class="footer-left">
-                <h1>Available</h1>
-                <p><i class="far fa-clock"></i>Monday to Friday - 8h:30mn à 20h</p>
-                <p><i class="far fa-clock"></i>Saturday - 8h:30mn to 13h</p>
+                <h1>Disponible</h1>
+                <p><i class="far fa-clock" style="color: rgb(128, 6, 0);"></i>Lundi à vendredi - 8h:30mn à 20h</p>
+                <p><i class="far fa-clock" style="color: rgb(128, 6, 0);"></i>Samedi - 8h:30mn to 13h</p>
             </div>
             <div class="footer-right">
-                <h1>Get In Touch</h1>
-                <p>EPI-Niger online library <a href="https://www.google.com/maps/place/EPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger/@13.5318916,2.1024797,17z/data=!4m14!1m7!3m6!1s0x11d0754a14323b47:0x67409acc1f19285b!2sEPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013!3m5!1s0x11d0754a14323b47:0x67409acc1f19285b!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013?entry=ttu"><i class="fas fa-map-marker-alt"></i></a></p>
-                <p>info@epiniger.edu.ne<i class="fas fa-paper-plane"></i></p>
-                <p>(+227) 98.60.60.78 92.41.08.08<i class="fas fa-phone-alt"></i></p>
+                <h1>Contacter nous</h1>
+                <p>EPI-Niger online library <a href="https://www.google.com/maps/place/EPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger/@13.5318916,2.1024797,17z/data=!4m14!1m7!3m6!1s0x11d0754a14323b47:0x67409acc1f19285b!2sEPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013!3m5!1s0x11d0754a14323b47:0x67409acc1f19285b!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013?entry=ttu"><i class="fas fa-map-marker-alt" style="color: rgb(128, 6, 0);"></i></a></p>
+                <p>info@epiniger.edu.ne<i class="fas fa-paper-plane" style="color: rgb(128, 6, 0);"></i></p>
+                <p>(+227) 98.60.60.78 92.41.08.08<i class="fas fa-phone-alt" style="color: rgb(128, 6, 0);"></i></p>
             </div>
         </div>
         <div class="social-links">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fab fa-youtube"></i>
-            <p>&copy; 2021 Copyright by soft-thec</p>
+            <i class="fab fa-facebook-f" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
+            <i class="fab fa-twitter" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
+            <i class="fab fa-instagram-square" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
+            <i class="fab fa-youtube" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
+            <p>&copy; 2023 Copyright by soft-thec</p>
         </div>
-    </div> -->
+    </div>
 
     <?php
     if(isset($_GET['req']))

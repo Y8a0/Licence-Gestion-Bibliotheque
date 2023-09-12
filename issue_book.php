@@ -111,14 +111,6 @@
 			            ?>
                     </b><br>
                     </div>
-                    <div class="label">
-                        <label for="studentid">Price : </label>
-                        <b style="font-size: 13px;">
-                        <?php
-			                echo $price;
-			            ?>
-                    </b><br>
-                    </div>
                     <input type="text"  name="approve" placeholder="Approve">
                     <div class="label">
                         <label for="status">Issue Date : </label>

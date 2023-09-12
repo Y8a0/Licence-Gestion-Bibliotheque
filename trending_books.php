@@ -34,7 +34,7 @@
 			$q=mysqli_query($db,"SELECT books.bookpic,books.bookid,books.bookname,authors.authorname,category.categoryname,books.ISBN,books.price,quantity,status from  `books`join `authors` on authors.authorid=books.authorid join `category` on category.categoryid=books.categoryid join `trendingbook` on trendingbook.bookid = books.bookid  where bookname like '%$_POST[search]%'; ");
 			if(mysqli_num_rows($q)==0)
 			{
-				echo "Sorry! No Books found. Try searching again";
+				echo "Désolé! Aucun livre trouvé. Essayez à nouveau de chercher";
 
 			}
 			else
@@ -46,7 +46,6 @@
                 echo "<th>"; echo "Author Name"; echo "</th>";
                 echo "<th>"; echo "Category Name"; echo "</th>";
                 echo "<th>"; echo "ISBN"; echo "</th>";
-                echo "<th>"; echo "Price"; echo "</th>";
                 echo "<th>"; echo "Quantity"; echo "</th>";
                 echo "<th>"; echo "Status"; echo "</th>";
                 echo "<th style='padding-left: 40px;'>"; echo "Action"; echo "</th>";
@@ -70,7 +69,6 @@
                     echo "<td>"; echo $row['authorname']; echo "</td>";
                     echo "<td>"; echo $row['categoryname']; echo "</td>";
                     echo "<td>"; echo $row['ISBN']; echo "</td>";
-                    echo "<td>"; echo $row['price']; echo "</td>";
                     echo "<td>"; echo $row['quantity']; echo "</td>";
                     echo "<td>"; echo $row['status']; echo "</td>";
                     echo "<td>";?>
@@ -95,7 +93,6 @@
             echo "<th>"; echo "Author Name"; echo "</th>";
             echo "<th>"; echo "Category Name"; echo "</th>";
             echo "<th>"; echo "ISBN"; echo "</th>";
-            echo "<th>"; echo "Price"; echo "</th>";
             echo "<th>"; echo "Quantity"; echo "</th>";
             echo "<th>"; echo "Status"; echo "</th>";
             echo "<th style='padding-left: 40px;'>"; echo "Action"; echo "</th>";
@@ -119,7 +116,6 @@
                     echo "<td>"; echo $row['authorname']; echo "</td>";
                     echo "<td>"; echo $row['categoryname']; echo "</td>";
                     echo "<td>"; echo $row['ISBN']; echo "</td>";
-                    echo "<td>"; echo $row['price']; echo "</td>";
                     echo "<td>"; echo $row['quantity']; echo "</td>";
                     echo "<td>"; echo $row['status']; echo "</td>";
                     echo "<td>";?>

@@ -46,7 +46,7 @@
                 if(mysqli_num_rows($row1)!=0)
                 {
                     ?>
-                    <h2 style="padding-left: 1050px;">Your Fine is: &nbsp;<?php echo $res1['sum(fine)'] . " Tk.";?></h2>
+                    <h2 style="padding-left: 1050px;">Your Fine is: &nbsp;<?php echo $res1['sum(fine)'] . "";?></h2>
                     <?php
                     
                 }
@@ -106,7 +106,7 @@
                         <img src='images/".$row['bookpic']."'>
                         <div>
                             <p>";echo $row['bookname'];echo"</p>
-                            <small>Price: ";echo $row['price'];echo" Tk.</small><br>";?>
+                            <small></small><br>";?>
                         </div>
                     </div>
                     </td><?php

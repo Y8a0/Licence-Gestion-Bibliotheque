@@ -88,7 +88,7 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo ""; echo "</td>";
                     echo "<td>";?><a href="edit_issue_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Edit
 			        </button>
                     </a>
@@ -160,7 +160,7 @@
                     echo "<td>"; echo $row['issuedate']; echo "</td>";
                     echo "<td>"; echo $row['returndate']; echo "</td>";
                     echo "<td>"; echo $row['approve']; echo "</td>";
-                    echo "<td>"; echo $row['fine']; echo " Tk."; echo "</td>";
+                    echo "<td>"; echo $row['fine']; echo ""; echo "</td>";
                     echo "<td>";?><a href="edit_issue_book.php?ed=<?php echo $row['studentid'];?>&ed1=<?php echo $row['bookid'];?>"><button style="font-weight:bold; width: 100px;" type="submit" name="submit1" class="btn btn-default actionbtn">Edit
 			        </button>
                     </a>

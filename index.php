@@ -20,12 +20,12 @@
 <body>
     <div class="banner">
         <div class="banner-content">
-            <h1>Welcome to Library</h1>
+            <h1>Bienvenue à la biblioyheque</h1>
         </div>
     </div>
     <div class="trending-books all-books">
         <div class="small-container">
-            <h2 class="co-title">Trending Books</h2>
+            <h2 class="co-title">Quelque livres</h2>
             <div class="row">
             <?php
                 $res=mysqli_query($db,"SELECT books.bookid,books.bookpic,books.bookname,category.categoryname,authors.authorname,books.ISBN,books.price,quantity,status from  `books` join `category` on category.categoryid=books.categoryid join `authors` on authors.authorid=books.authorid join trendingbook on trendingbook.bookid=books.bookid;");
@@ -41,10 +41,7 @@
                                 <?php
                                     echo $row['bookname'];
                                 ?></h4>
-                                <p style="font-size: 18px">Price: 
-                                <?php
-                                    echo $row['price'];
-                                ?> Tk.</p>
+                                <p style="font-size: 18px"></p>
                             
                             <div class="overlay"></div>
                             <div class="sub-card">
@@ -67,11 +64,7 @@
                             <p><b>Quantity: &nbsp;</b> 
                             <?php
                                 echo $row['quantity'];
-                            ?></p>
-                            <p><b>Price:</b> 
-                            <?php
-                                echo $row['price'];
-                            ?> Tk.</p> 
+                            ?></p> 
                             <p><b>Status: &nbsp;</b>
                             <span>
                             <?php
@@ -116,7 +109,7 @@
     </div>
     <div class="testimonial">
         <div class="small-container">
-        <h2 class="co-title">Some student comments</h2>
+        <h2 class="co-title">Quelques commentaires d'étudiants</h2>
             <div class="row">
             <?php
             $res=mysqli_query($db,"SELECT student.studentpic,FullName,feedback.rating,comment from feedback join student on student.studentid=feedback.stdid ORDER BY feedback.rating DESC");
@@ -254,15 +247,15 @@
             </div>
             <div class="footer-right">
                 <h1>Contacter nous</h1>
-                <p>EPI-Niger online library <a href="https://www.google.com/maps/place/EPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger/@13.5318916,2.1024797,17z/data=!4m14!1m7!3m6!1s0x11d0754a14323b47:0x67409acc1f19285b!2sEPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013!3m5!1s0x11d0754a14323b47:0x67409acc1f19285b!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013?entry=ttu"><i class="fas fa-map-marker-alt" style="color: rgb(128, 6, 0);"></i></a></p>
-                <p>info@epiniger.edu.ne<i class="fas fa-paper-plane" style="color: rgb(128, 6, 0);"></i></p>
-                <p>(+227) 98.60.60.78 92.41.08.08<i class="fas fa-phone-alt" style="color: rgb(128, 6, 0);"></i></p>
+                <p><a href="https://www.google.com/maps/place/EPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger/@13.5318916,2.1024797,17z/data=!4m14!1m7!3m6!1s0x11d0754a14323b47:0x67409acc1f19285b!2sEPI+Niger,+L'Ecole+Priv%C3%A9e+d'Ing%C3%A9nierie+du+Niger!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013!3m5!1s0x11d0754a14323b47:0x67409acc1f19285b!8m2!3d13.5318864!4d2.1050546!16s%2Fg%2F11sycs3013?entry=ttu" style="color: rgb(12, 6, 0);">EPI-Niger online library <i class="fas fa-map-marker-alt" style="color: rgb(128, 6, 0);"></i></a></p>
+                <p><a href="https://www.epiniger.edu.ne/" style="color: rgb(12, 6, 0);">info@epiniger.edu.ne <i class="fas fa-paper-plane" style="color: rgb(128, 6, 0);"></i></a></p>
+                <p><a href="tel:98606078" style="color: rgb(12, 6, 0);">(+227) 98.60.60.78 <i class="fas fa-phone-alt" style="color: rgb(128, 6, 0);"></i></a></p>
             </div>
         </div>
         <div class="social-links">
-            <i class="fab fa-facebook-f" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
+            <a href="https://www.facebook.com/search/top?q=epiniger&locale=fr_FR"><i class="fab fa-facebook-f" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i></a>
+            <a href="https://www.instagram.com/epi.niger/"><i class="fab fa-instagram-square" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i></a>
             <i class="fab fa-twitter" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
-            <i class="fab fa-instagram-square" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
             <i class="fab fa-youtube" style="color: rgb(128, 6, 0); border: 2px solid rgb(128, 6, 0);"></i>
             <p>&copy; 2023 Copyright by soft-thec</p>
         </div>

@@ -30,7 +30,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" width="30px" height="30px" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="admin-title">
-                <a href="index.php"><h3 style="font-size: 16px;">EPI Online Library</h3></a>
+                <a href="index.php"><h3 style="font-size: 16px;"><!-- EPI-Niger online library --></h3></a>
                 </div>
                 <div class="admin-navbar">
                 
@@ -68,7 +68,7 @@
                                 <li><a href="expired.php">Listes expirées</a></li>
                             </ul>
                         </li>
-                        <li><a href="feedback_info.php">Liste de commentaires</a></li>
+                        <li><a href="feedback_info.php">Commentaires</a></li>
                         <li><a href="admin_message.php" id="envelope"><i class="fas fa-envelope"></i>
                         <?php
                         if($c['total']>0 && $c['total']<=9){
@@ -118,7 +118,7 @@
                    <a href="index.php"><img src="image/Epi.jpeg" alt="Logo" style="border-radius: 50%;"></a> 
                 </div>
                 <div class="title">
-                <a href="index.php"><h3 style="font-size: 20px;">EPI Online Library</h3></a>
+                <a href="index.php"><h3 style="font-size: 20px;"><!-- EPI Online Library --></h3></a>
                 </div>
                 <nav>
                     <ul id="menuitems">
